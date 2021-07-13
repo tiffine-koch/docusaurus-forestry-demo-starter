@@ -5,6 +5,20 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: ''
+  label: Cloud Directory
+  create: all
+  match: "**/*"
+  templates:
+  - page
+- type: directory
+  path: ''
+  label: 'Cloud Eng '
+  create: all
+  match: "**/*"
+  templates:
+  - page
+- type: directory
   path: docs
   label: Docs
   create: documents
